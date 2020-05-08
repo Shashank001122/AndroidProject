@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar">
+
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/search"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:hint="@string/search_hint"-->
+    <!--        android:inputType="text"-->
+    <!--        android:imeOptions="actionSend" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text_trending"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:padding="2dp"-->
+    <!--        />-->
+
+
+
+    <TextView
+        android:id="@+id/textView_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Enter the Search Term"
+
+        android:layout_margin="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_label"
+        android:hint="Coronavirus"
+        android:inputType="text"
+        android:imeOptions="actionSend" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/charts"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/search" />
+
+</RelativeLayout>

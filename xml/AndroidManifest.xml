@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.londonappbrewery.climapm">
+
+    <application
+        android:allowBackup="true"
+        android:label="NewsApp"
+        android:supportsRtl="true"
+        android:icon="@drawable/ic_icons8_news"
+        android:theme="@style/AppTheme.Launcher">
+
+        <activity
+            android:name=".home.WeatherController">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.londonappbrewery.climapm.Newssari.News"></activity>
+
+        <activity android:name="com.londonappbrewery.climapm.SearchResult"></activity>
+        <activity android:name=".Bookmark"></activity>
+    <activity android:name=".Up"></activity>
+        <activity android:name=".GalleryActivity"></activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>
