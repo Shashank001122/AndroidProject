@@ -1,5 +1,5 @@
 **<h1>NewsApp_Android</h1>**
-Reference Solution Video: https://www.youtube.com/watch?v=RRbNQy4iAYk&t=27s
+Reference Solution Video: https://www.youtube.com/watch?v=RRbNQy4iAYk
 
 **<h1>Overview</h1>**
 This android application serves as the mobile counterpart of the project: https://github.com/Shashank001122/ReactNewsPortal.
